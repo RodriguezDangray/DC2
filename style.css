@@ -1,0 +1,139 @@
+html, body {
+    min-height: fit-content;
+    font: normal 16px sans-serif;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+}
+
+/*HOMEPAGE CSS*/
+
+.navbar {
+    padding: 16px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px black;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+    padding-bottom: 1rem;
+}
+
+.btn a {
+    color: white;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    text-align: justify;
+}
+
+.padding {
+    padding-bottom: 3rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 80%;
+    margin-top: .3rem;
+    margin-bottom: 60px;
+}
+
+.row i {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 2rem;
+    padding-top: 5rem;
+    border-radius: 20px;
+}
+
+hr.light {
+    border-top: 1px solid #b5b5b5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/* GALLERY CSS */
+
+.container.gallery-container {
+    background-image: linear-gradient(to top, #50413C 5%, #F5834D 20%, #FFCC63 30%, #F8F5EC 100%);
+    color: black;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: black;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
